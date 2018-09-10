@@ -6,7 +6,7 @@ It contains a pre-configured master with admin login, configured for use with sw
 ### Usage
 
 ```bash
-docker run -it -p 8080:8080 -p 50000:50000 -v jenkins_home:/var/jenkins_home jenkins/jenkins:dev
+docker run -it -p 8080:8080 -p 50000:50000 -v jenkins_home:/var/jenkins_home rgoodwin/jenkins-master-preconfigured
 ```
 
 Then go to `http://<host>:8080` and login using
